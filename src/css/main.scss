@@ -1,0 +1,26 @@
+@import "./variables.scss";
+
+html{
+	background:url(../images/img-big.jpg) no-repeat;
+	background-size:cover;
+}
+
+.main{
+	width:800px;
+	height:300px;
+	margin:40px auto;
+	box-shadow: 0 18px 30px rgba(0,0,0,0.4);
+	border-radius: 4px;
+	background:url(../images/img-small.png) no-repeat left bottom;
+	background-color:#fff;
+		text-align:center;
+
+
+	h1{
+		color:$c-main;
+		padding:20px;
+	}
+	h2{
+		color:#ddd;
+	}
+}
